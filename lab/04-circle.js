@@ -17,7 +17,7 @@ class Circle {
 
 let c = new Circle(2);
 console.log(c);
-console.log(`Radius: ${c.radius}`);
+console.log(`Radius: ${c.radius}`, `no diameter key:value unless we "get" it`);
 console.log(`Diameter: ${c.diameter}`);
 console.log(`Area: ${c.area}`);
 c.diameter = 1.6;
