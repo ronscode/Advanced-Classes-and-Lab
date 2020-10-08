@@ -20,7 +20,6 @@ class Person {
 	// }
 }
 
-console.log(Person.getPeople());
 
 function main() {
 	// function > returning > [ an, array ] of objects (from the class factory)
@@ -31,7 +30,7 @@ function main() {
 		new Person("Gabriel", "Peterson", 24, "g.p@gmail.com"),
 	];
 }
-let myPeople = document.getElementById("people");
+
 //let somePerson = new Person("Anna", "Simpson", "22", "anna@yahoo.com");
 //console.log(somePerson.toString());
 
