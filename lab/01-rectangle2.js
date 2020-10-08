@@ -13,8 +13,8 @@ class Rectangle {
 let rect = new Rectangle(4, 5, "red");
 console.log(rect.calcArea());
 
-// let htmlRectangle = document.getElementById("rectangle");
+let htmlRectangle = document.getElementById("rectangle");
 
-// htmlRectangle.style.width = rect.width * 120 + "px";
-// htmlRectangle.style.height = `${rect.height * 120}px`;
-// htmlRectangle.style.backgroundColor = rect.color;
+htmlRectangle.style.width = rect.width * 120 + "px";
+htmlRectangle.style.height = `${rect.height * 120}px`;
+htmlRectangle.style.backgroundColor = rect.color;
